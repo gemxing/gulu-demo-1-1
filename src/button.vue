@@ -11,7 +11,21 @@
 
 <script>
     export default {
-        props: ['icon','iconPosition']//接收外部传参
+        // props: ['icon','iconPosition']//接收外部传参
+        props:{
+            icon:{},
+            iconPosition:{
+                type: String,
+                default: 'left',
+                validator(value){//属性检查器
+                    if(value !=='left' && value !== 'right') {
+                        return false;
+                    }else{
+                        return true;
+                    }
+                }
+            }
+        }
     }
 </script>
 
