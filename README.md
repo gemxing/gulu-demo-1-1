@@ -1,5 +1,7 @@
 # 咕噜 - 一个 VUE UI 组件
 
+[![Build Status](https://travis-ci.org/gemxing/gulu-demo-1-1.svg?branch=master)](https://travis-ci.org/gemxing/gulu-demo-1-1)
+
 ## 介绍
 
 这是在学习 Vue 过程中做的一个 UI 框架，希望对你有用。
