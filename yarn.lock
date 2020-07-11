@@ -2555,6 +2555,14 @@ grapheme-breaker@^0.3.2:
     brfs "^1.2.0"
     unicode-trie "^0.3.1"
 
+gulu-demo-1-1@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npm.taobao.org/gulu-demo-1-1/download/gulu-demo-1-1-0.0.2.tgz?cache=0&sync_timestamp=1594449551746&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgulu-demo-1-1%2Fdownload%2Fgulu-demo-1-1-0.0.2.tgz#7ee7585f151ac2670d3bd78d1fb86bba36d63c41"
+  integrity sha1-fudYXxUawmcNO9eNH7hrujbWPEE=
+  dependencies:
+    vue "^2.6.11"
+    vue-hot-reload-api "^2.3.4"
+
 har-schema@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/har-schema/download/har-schema-2.0.0.tgz?cache=0&sync_timestamp=1589682732850&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhar-schema%2Fdownload%2Fhar-schema-2.0.0.tgz#a94c2224ebcac04782a0d9035521f24735b7ec92"
