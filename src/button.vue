@@ -9,8 +9,12 @@
 </template>
 
 <script>
+import Icon from './icon'
     export default {
         // props: ['icon','iconPosition']//接收外部传参
+        components:{
+            'g-icon': Icon
+        },
         props:{
             icon:{},
             loading:{
