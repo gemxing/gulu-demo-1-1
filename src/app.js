@@ -16,7 +16,3 @@ new Vue({
         loading3:false,
     }
 })
-
-{
-    
-}
