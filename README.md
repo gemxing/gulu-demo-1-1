@@ -4,7 +4,7 @@
 
 ## 介绍
 
-这是在学习 Vue 过程中做的一个 UI 框架，希望对你有用。
+这是在学习 Vue 过程中做的一个 UI 框架。
 
 ## 开始使用
 
@@ -33,7 +33,7 @@ html {
 ```
 IE 15 及以上浏览器都支持此样式。
 
-2.安装 gulu
+2.安装 gulu UI
 ```
 npm i --save gulu-demo-1-1
 ```
@@ -50,14 +50,5 @@ export default {
   }
 }
 ```
-4.
 
-## 文档
-
-## 提问
-
-## 变更记录
-
-## 联系方式
-
-## 贡献代码
+## [文档官网](https://gemxing.github.io/gulu-demo-1-1-test/)

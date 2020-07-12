@@ -1,7 +1,7 @@
 {
   "name": "gulu-demo-1-1",
-  "version": "0.0.2",
-  "description": "这是一个UI框架",
+  "version": "0.0.3",
+  "description": "一个简单好用的 Vue UI框架",
   "main": "dist/index.js",
   "scripts": {
     "start": "parcel index.html --no-cache",

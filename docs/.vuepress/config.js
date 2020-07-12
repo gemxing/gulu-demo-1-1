@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/gulu-demo-1-1-test/',
     title: 'gulu UI',
     description: '一个简单好用的框架',
     themeConfig: {
@@ -15,14 +16,16 @@ module.exports = {
                 title:'组件',
                 children:[
                     '/components/button',
-                    '/components/tabs'
+                    '/components/tabs',
+                    '/components/input',
+                    '/components/layout'
                 ]
             }
         ],
         nav: [
             {text: '主页', link:'/'},
-            {text: '文档', link: '/guide/'},
-            {text: '交流', link: 'https://google.com'},
+            {text: '文档', link: '/install/'},
+            {text: '交流', link: 'https://github.com/gemxing'},
         ],
     }
   }

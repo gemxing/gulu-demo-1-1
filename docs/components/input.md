@@ -1,7 +1,7 @@
 ---
-title: Tabs
+title: Input
 sidebarDepth: 2
 ---
-# 标签
+# 输入框
 
 开发中，待更新...
