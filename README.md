@@ -1,10 +1,10 @@
-# 咕噜 - 一个 VUE UI 组件
+# gulu UI - 一个简单好用的 UI 组件
 
 [![Build Status](https://travis-ci.org/gemxing/gulu-demo-1-1.svg?branch=master)](https://travis-ci.org/gemxing/gulu-demo-1-1)
 
 ## 介绍
 
-这是在学习 Vue 过程中做的一个 UI 框架。
+这是在探索 Vue 过程中做的一个 UI 框架。
 
 ## 开始使用
 
@@ -37,7 +37,7 @@ IE 15 及以上浏览器都支持此样式。
 ```
 npm i --save gulu-demo-1-1
 ```
-3.引入 gulu-demo-1-1
+3.引入 gulu UI
 ```
 import {Button,Icon} from 'gulu-demo-1-1'
 import 'gulu-demo-1-1/dist/index.css'
