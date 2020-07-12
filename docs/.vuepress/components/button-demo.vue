@@ -1,7 +1,10 @@
 <template>
     <div>
         <h2>简单用法</h2>
-        <h4>预览</h4>
+        <h4>普通按钮</h4>
+        <g-button>
+            按钮
+        </g-button>
         <g-button :loading="loading1" @click="loading1 = !loading1">
             按钮1
         </g-button>
@@ -13,14 +16,19 @@
         </g-button>
         <g-button :loading="true">按钮4</g-button>
         <g-button disabled>按钮5</g-button>
+        <h4>代码:</h4>
+        <pre>
+            <code>{{content}}</code>
+        </pre>
+        <h4>分页按钮</h4>
         <g-button-group>
             <g-button icon="left">上一页</g-button>
             <g-button>更多</g-button>
             <g-button icon="right" icon-position="right">下一页</g-button>
         </g-button-group>
-        <h4>代码</h4>
+        <h4>代码:</h4>
         <pre>
-            <code>{{content}}</code>
+            <code>{{content1}}</code>
         </pre>
     </div>
 </template>
@@ -36,6 +44,8 @@ export default {
     data(){
         return{
             content:`
+    <g-button> 按钮 </g-button>
+    
     <g-button :loading="loading1" @click="loading1 = !loading1"> 按钮1 </g-button>
 
     <g-button icon="settings" icon-position="left" :loading="loading2" 
@@ -47,7 +57,8 @@ export default {
     <g-button :loading="true"> 按钮4 </g-button>
 
     <g-button disabled> 按钮5 </g-button>
-
+            `,
+            content1:`
     <g-button-group>
         <g-button icon="left"> 上一页 </g-button>
         <g-button> 更多 </g-button>
