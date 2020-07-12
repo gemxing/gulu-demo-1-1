@@ -11,7 +11,7 @@ import './svg'
     }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
     .g-icon{
         width: 20px;
         height: 20px;

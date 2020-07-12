@@ -22,7 +22,7 @@ title: 快速上手
 ```
 
 ## 引入gulu-demo-1-1
-```
+```javascript
 import {Button} from 'gulu-demo-1-1'
 import Vue from 'vue'
 
