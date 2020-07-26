@@ -1,6 +1,6 @@
 {
   "name": "gulu-demo-1-1",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "一个简单好用的 Vue UI框架",
   "main": "dist/index.js",
   "scripts": {
