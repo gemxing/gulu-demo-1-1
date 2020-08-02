@@ -27,6 +27,7 @@ export default {
 
 <style lang="scss" scoped>
 .row {
+  flex-wrap: wrap;
   display: flex;
 }
 </style>
